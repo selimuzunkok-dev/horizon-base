@@ -30,3 +30,7 @@ Build with `node build.mjs`.
 ## Use of AI
 
 This game's code, texts and procedural 3D models were generated with Claude Code (Anthropic's AI coding agent) under the team's direction. The same statement is shown inside the game in the "Data sources" window. No NASA logos or insignia are used; NASA sources are credited in text.
+
+## License
+
+MIT, see `LICENSE`. Three.js (`vendor/three.min.js`) is included under its own MIT licence.
