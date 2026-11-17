@@ -92,7 +92,7 @@ for (const [k, col, lab] of B3) {
   const h2 = document.createElement('h2'); h2.textContent = '128 px, kenar yazısıyla (karne ve 3B doku böyle görünür)'; sec.appendChild(h2);
   for (const page of ['#05070d', '#e9e7e1']) {
     const row = document.createElement('div'); row.className = 'row'; row.style.cssText = 'flex-wrap:wrap;padding:8px;border-radius:8px;margin:6px 0;background:' + page; sec.appendChild(row);
-    PATCH_SYMS.forEach((sym, i) => row.appendChild(cv({ shape: PATCH_SHAPES[i % 3], bg: PBG[i % 6], sym, text: i % 2 ? 'UFUK-1 · ŞİRİN ÇAĞLA' : 'UFUK-2 · SELİM' }, 128, page)));
+    PATCH_SYMS.forEach((sym, i) => row.appendChild(cv({ shape: PATCH_SHAPES[i % 3], bg: PBG[i % 6], sym, text: i % 2 ? 'UFUK-1 · ÖRNEK OYUNCU' : 'UFUK-2 · SELİM' }, 128, page)));
   }
   const u = document.createElement('p'); u.className = 'sub'; u.textContent = 'Bilinmeyen sembol → yıldız: '; u.appendChild(cv({ sym: 'yok-boyle', bg: '#2f5fa8' }, 64, '#05070d')); sec.appendChild(u);
 }
